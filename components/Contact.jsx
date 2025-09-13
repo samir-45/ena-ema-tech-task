@@ -4,9 +4,9 @@ import { Input } from './ui/input'
 import { Button } from './ui/button'
 import { motion } from "framer-motion";
 
-export default function Contact() {
+export default function Contact({text}) {
     return (
-        <div className="w-full max-w-3xl mx-auto bg-white/5 backdrop-blur-md rounded-lg my-14 border border-gray-600 p-6 md:p-8 shadow-[0_0_9px_rgba(0,255,174,0.15)]">
+        <div className="w-full max-w-3xl mx-auto bg-white/5 backdrop-blur-md rounded-lg border border-gray-600 p-6 md:p-8 shadow-[0_0_9px_rgba(0,255,174,0.15)]">
             {/* Inputs */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="relative">
@@ -46,7 +46,7 @@ export default function Contact() {
                     asChild
                     className="w-full mt-6 py-6 text-lg font-semibold bg-[#1FFFA5] text-black rounded-lg shadow-[0_0_10px_#00ffae]  transition-all duration-300 hover:bg-[#0fff9f]"
                 >
-                    <a href="/">Get my high-converting landing page →</a>
+                    <a href="/">{text}</a>
                 </Button>
             </motion.div>
 

@@ -53,8 +53,11 @@ export default function HeroSection() {
 
 
                                 {/*Contact Details submission component*/}
-                                <Contact></Contact>
+                                <div className='my-14 mx-5 sm:mx-0'>
+                                    <Contact text={'Ami valo manusGet my high-converting landing page →'}></Contact>
 
+                                </div>
+                                
 
 
                                 {/* Image Slider */}
