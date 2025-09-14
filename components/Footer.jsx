@@ -7,7 +7,7 @@ export default function Footer() {
                 <img className='invert' src="/Logo.png" alt="" />
             </div>
             <div>
-                <p className='text-sm'>© All rights reserved to Ena Ema Technologies</p>
+                <p className='text-sm text-center'>© All rights reserved to Ena Ema Technologies</p>
             </div>
             <div className='flex gap-1 sm:gap-3 items-center'>
                 <img src="/linkedin.svg" alt="linkedin" />
