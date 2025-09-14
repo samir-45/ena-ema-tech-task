@@ -10,11 +10,11 @@ export default function Footer() {
                 <p className='text-sm'>© All rights reserved to Ena Ema Technologies</p>
             </div>
             <div className='flex gap-1 sm:gap-3 items-center'>
-                <img src="/Scicons/linkedin.svg" alt="linkedin" />
-                <img src="/Scicons/fb.svg" alt="facebook" />
-                <img src="/Scicons/insta.svg" alt="instagram" />
-                <img src="/Scicons/drib.svg" alt="dribble" />
-                <img src="/Scicons/be.svg" alt="behance" />
+                <img src="/scicons/linkedin.svg" alt="linkedin" />
+                <img src="/scicons/fb.svg" alt="facebook" />
+                <img src="/scicons/insta.svg" alt="instagram" />
+                <img src="/scicons/drib.svg" alt="dribble" />
+                <img src="/scicons/be.svg" alt="behance" />
             </div>
         </div>
     )
