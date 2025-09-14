@@ -8,7 +8,7 @@ export default function Contact({text}) {
     return (
         <div className="w-full max-w-3xl mx-auto bg-white/5 backdrop-blur-md rounded-lg border border-gray-600 p-6 md:p-8 shadow-[0_0_9px_rgba(0,255,174,0.15)]">
             {/* Inputs */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 text-white md:grid-cols-3 gap-4">
                 <div className="relative">
                     <User className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
                     <Input
