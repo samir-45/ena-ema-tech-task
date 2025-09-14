@@ -14,7 +14,7 @@ export default function Footer() {
                 <img src="/scicons/fb.svg" alt="facebook" />
                 <img src="/scicons/insta.svg" alt="instagram" />
                 <img src="/scicons/drib.svg" alt="dribble" />
-                <img src="/scicons/be.svg" alt="behance" />
+                <img src="/be.svg" alt="behance" />
             </div>
         </div>
     )
