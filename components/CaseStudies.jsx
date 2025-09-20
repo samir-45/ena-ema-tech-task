@@ -108,7 +108,7 @@ export default function CaseStudies() {
                         <SwiperSlide key={item.id}>
                             <motion.div
                                 whileHover={{ scale: 1.03 }}
-                                className="bg-[#151E1B] border-2 border-[#2A3C36] my-5 w-[430px] rounded-2xl overflow-hidden shadow-lg p-3 flex flex-col items-center"
+                                className="bg-[#151E1B] border-2 border-[#2A3C36] my-5 sm:w-[430px] rounded-2xl overflow-hidden shadow-lg p-3 flex flex-col items-center"
                             >
                                 {/* Image */}
                                 <div className="w-full h-60 rounded-lg overflow-hidden">
@@ -119,7 +119,7 @@ export default function CaseStudies() {
                                     />
                                 </div>
 
-                                <div className="flex w-full justify-between">
+                                <div className="flex w-full flex-col sm:flex-row justify-between">
                                     {/* Title */}
                                     <h3 className="text-xl font-semibold mt-4">{item.title}</h3>
 

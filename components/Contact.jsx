@@ -46,7 +46,7 @@ export default function Contact({text}) {
                     asChild
                     className="w-full mt-6 py-6 text-lg font-semibold bg-[#1FFFA5] text-black rounded-lg shadow-[0_0_10px_#00ffae]  transition-all duration-300 hover:bg-[#0fff9f]"
                 >
-                    <a href="/">{text}</a>
+                    <a className='text-sm sm:text-lg' href="/">{text}</a>
                 </Button>
             </motion.div>
 

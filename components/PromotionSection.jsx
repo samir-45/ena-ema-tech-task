@@ -5,7 +5,7 @@ import Contact from './Contact'
 export default function PromotionSection() {
     return (
 
-        <div className="min-h-screen w-full relative ">
+        <div className="py-12 w-full relative ">
             {/* Arctic Lights Background with Top Glow */}
             <div
                 className="absolute inset-0 z-0"
@@ -14,7 +14,7 @@ export default function PromotionSection() {
                 }}
             />
 
-            <div className='flex relative pt-6 sm:pt-12 md:pt-16 flex-col justify-center items-center'>
+            <div className='flex relative w-full pt-6 sm:pt-12 md:pt-16 flex-col justify-center items-center'>
                 {/* Heading */}
                 <div>
                     <h2 className="text-3xl md:text-6xl text-center text-white font-bold mb-4">
@@ -26,7 +26,7 @@ export default function PromotionSection() {
                         landing page that pays for itself.
                     </p>
                 </div>
-                <div className='mx-5 sm:mx-0'>
+                <div className='mx-5 w-fit max-w-11/12 sm:max-w-full md:mx-0'>
 
                     <Contact text={'Get my high-converting landing page →'}></Contact>
                 </div>

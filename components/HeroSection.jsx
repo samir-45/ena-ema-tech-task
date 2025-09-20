@@ -28,7 +28,7 @@ export default function HeroSection() {
                     <section className="relative">
                         <div className="relative py-6 lg:py-10">
                             <div className="mx-auto ">
-                                <div className="text-center flex flex-col items-center sm:mx-auto sm:w-10/12 lg:mr-auto lg:mt-0 lg:w-4/5">
+                                <div className="text-center mx-auto flex flex-col items-center sm:mx-auto w-10/12 lg:mr-auto lg:mt-0 lg:w-4/5">
                                     <Link
                                         href="/"
                                         aria-label="home"
@@ -53,8 +53,8 @@ export default function HeroSection() {
 
 
                                 {/*Contact Details submission component*/}
-                                <div className='my-14 mx-5 sm:mx-0'>
-                                    <Contact text={'Ami valo manusGet my high-converting landing page →'}></Contact>
+                                <div className='my-14 mx-5 md:mx-0'>
+                                    <Contact text={'Get my high-converting landing page →'}></Contact>
 
                                 </div>
                                 
